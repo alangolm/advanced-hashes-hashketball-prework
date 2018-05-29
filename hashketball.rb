@@ -190,6 +190,8 @@ def player_stats(p_name)
 end 
 
 def big_shoe_rebounds
+  s_size = 
+  
   game_hash.each do |location, team_data|
     team_data[:players].each do |attribute|
       attribute[:shoe].max
