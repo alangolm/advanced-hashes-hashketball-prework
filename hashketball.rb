@@ -197,8 +197,9 @@ def big_shoe_rebounds
       if attribute[:shoe] > s_size 
         s_size = attribute[:shoe]
         rebounds = attribute[:rebounds]
-         
+      end    
     end 
-  end   
+  end 
+  rebounds 
 end   
 
